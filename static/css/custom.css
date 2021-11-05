@@ -1,0 +1,24 @@
+footer .small-print {
+  background-color: #292b2c;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  overflow: auto;
+  color: #01101a;
+}
+
+footer .pull-right {
+  float: right;
+}
+
+footer .pull-left {
+  float: left;
+}
+
+footer span {
+  display: inline-block;
+}
