@@ -36,12 +36,11 @@ def register(request):
         lastname = request.POST['lastname']
         email = request.POST['email']
 
-        print("----------------- register called")
-        print(usernam)
-        print(password)
-        print(firstname)
-        print(lastname)
-        print(email)
+        #print("----------------- register called")
+        #print(usernam)
+        #print(firstname)
+        #print(lastname)
+        #print(email)
 
         # try:
         #     user = get_object_or_404(User, username=username)
