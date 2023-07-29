@@ -106,3 +106,6 @@ def tutorial_list_published(request):
     if request.method == 'GET':
         tutorials_serializer = TutorialSerializer(tutorials, many=True)
         return JsonResponse(tutorials_serializer.data, safe=False)
+    
+def index(request):
+    render("/teplate.html")
